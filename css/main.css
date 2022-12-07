@@ -90,3 +90,22 @@ body {
 	max-width: 507px;
 	max-height: 143;
 }
+.adr{
+	font-family: "GothamPro";
+	font-size: 24px;
+	font-style: Regular;
+	line-height: 23px;
+	line-height: 100%;
+	align: left;
+}
+.sved{
+	font-family: "GothamPro";
+	font-size: 20px;
+	font-style: Regular;
+	line-height: 20px;
+	line-height: 100%;
+	align: left;
+}
+.colorurl{
+	color: #3B29A6;
+}
