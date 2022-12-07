@@ -51,8 +51,8 @@ html.js .loader_inner {
 }
 
 body {
-	margin:0;
-	padding:0;
+	margin-left: auto;
+    margin-right: auto;
 	font-family: sans-serif;
 	font-size: 16px;
 	min-width: 320px;
@@ -67,10 +67,8 @@ body {
 }
 
 .header{
-	display: flex;
-	margin:0 auto;
 	vertical-align:top;
-
+	display: flex;
 }
 
 .logo {
@@ -108,4 +106,15 @@ body {
 }
 .colorurl{
 	color: #3B29A6;
+}
+
+.menu{
+	margin-top: 40px;
+	margin-left: 50px;
+	Font-family: GothamPro-Bold;
+	Font-style: Bold;
+	Font-size: 28px;
+	Line-height: 27px;
+	Line-height: 170%;
+	align: Left;
 }
