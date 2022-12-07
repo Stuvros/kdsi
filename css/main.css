@@ -51,14 +51,42 @@ html.js .loader_inner {
 }
 
 body {
+	margin:0;
+	padding:0;
 	font-family: sans-serif;
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
 	line-height: 1.6;
-	font-family: "RobotoRegular", sans-serif;
+	font-family: "GothamPro-Medium", sans-serif;
 	overflow-x: hidden;
+	max-width: 1470px;
 }
 .hidden {
 	display: none;
+}
+
+.header{
+	display: flex;
+	margin:0 auto;
+	vertical-align:top;
+
+}
+
+.logo {
+	margin: 44px;
+	max-width: 521px;
+	max-height: 402px;
+}
+
+.fontgpt{
+	margin-top: 40px;
+	font-family: "GothamPro";
+	font-size: 48px;
+	font-style: Regular;
+	line-height: 46px;
+	line-height: 100%;
+	align: left;
+	max-width: 507px;
+	max-height: 143;
 }
