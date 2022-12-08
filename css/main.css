@@ -62,12 +62,16 @@ body {
 	overflow-x: hidden;
 	max-width: 1470px;
 }
+
+a{
+	color: #3B29A6;
+}
+
 .hidden {
 	display: none;
 }
 
 .header{
-	vertical-align:top;
 	display: flex;
 }
 
@@ -110,11 +114,12 @@ body {
 
 .menu{
 	margin-top: 40px;
-	margin-left: 50px;
+	margin-left: 0px;
 	Font-family: GothamPro-Bold;
 	Font-style: Bold;
 	Font-size: 28px;
 	Line-height: 27px;
 	Line-height: 170%;
 	align: Left;
+	max-width: 150px;
 }
