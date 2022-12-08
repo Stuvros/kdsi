@@ -2,16 +2,39 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.menu{
+		display: none;
+	}
+	.icon-menu_lines_hamburger_icon:before {
+		display: inline-block;
+	  }
+	.fontgpt{
+		margin-right: 50px;
+		margin-top: 40px;
+		font-family: "GothamPro";
+		font-size: 32px;
+		line-height: 31px;
+		line-height: 100%;
+		max-width: 312px;
+	}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.menu{
+		display: none;
+	}
+	.icon-menu_lines_hamburger_icon:before {
+		display: inline-block;
+	  }
+}
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -39,11 +62,25 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.menu{
+		display: none;
+	}
+	.icon-menu_lines_hamburger_icon:before {
+		display: inline-block;
+	  }
+}
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.menu{
+		display: none;
+	}
+	.icon-menu_lines_hamburger_icon:before {
+		display: inline-block;
+	  }
+}
 
 }
 

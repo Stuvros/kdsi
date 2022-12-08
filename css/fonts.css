@@ -68,6 +68,8 @@
   
   .icon-menu_lines_hamburger_icon:before {
 	content: "\e900";
+	float: right;
+	display: none;
   }
   .icon-ok_ru_logo_social-media_icon:before {
 	content: "\e901";
