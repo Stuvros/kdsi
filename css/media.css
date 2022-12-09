@@ -39,6 +39,9 @@
 	.sved{
 		display: none;
 	}
+	.habmurger{
+		font-size: 32px;
+	}
 
 /* @media only screen and (max-width : 480px) { */
 	@media only screen and (max-width : 620px) {
