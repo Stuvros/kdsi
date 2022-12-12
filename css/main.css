@@ -154,7 +154,6 @@ li{
 	transition: all .5s;
 	font-family: 'GothamPro', sans-serif;
 	z-index: 9;
-	overflow-y: initial
   }
   #modal-block:target{
 	display:block;
@@ -166,7 +165,7 @@ li{
   }
   
   /* Заголовкии текст */
-  #modal-block h3{
+  #modal-block h4{
 	margin: 20px 0;
 	font-size: 1.7em;
   }
