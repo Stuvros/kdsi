@@ -154,7 +154,7 @@ li{
 	transition: all .5s;
 	font-family: 'GothamPro', sans-serif;
 	z-index: 9;
-  
+	overflow: auto;
   }
   #modal-block:target{
 	display:flex;
@@ -178,7 +178,7 @@ li{
   /* Кнопка закрыть */
   .close-block{
 	display: flex;
-	margin-top: 100px;
+	margin-top: 1em;
 	top: 25%;
 	right: 25%;
 	padding: .5em;
