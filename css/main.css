@@ -154,7 +154,7 @@ li{
 	transition: all .5s;
 	font-family: 'GothamPro', sans-serif;
 	z-index: 9;
-	overflow-y: auto;
+	overflow-y: initial
   }
   #modal-block:target{
 	display:flex;
@@ -162,6 +162,7 @@ li{
 	justify-content:center;
 	flex-direction: column;
 	left:0;
+  	overflow-y: auto;
   }
   
   /* Заголовкии текст */
