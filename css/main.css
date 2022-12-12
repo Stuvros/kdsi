@@ -126,3 +126,66 @@ a{
 .habmurger{
 	
 }
+
+li{
+	list-style-type: none
+}
+
+/* modal menu */
+/* Кнопка */
+.btn-modal {
+	cursor: pointer;
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+  }
+  .btn-modal:hover {
+	background-color: #e82d2d;
+  }
+  
+  /* Модальное окно */
+  #modal-block { 
+	background-color:#e82d2d;
+	color: #fff;
+	position: fixed;
+	top:0;
+	left:100vw;
+	width:100vw;
+	height: 100vh;
+	transition: all .5s;
+	font-family: 'GothamPro', sans-serif;
+	z-index: 9;
+  
+  }
+  #modal-block:target{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction: column;
+	left:0;
+  }
+  
+  /* Заголовкии текст */
+  #modal-block h3{
+	margin: 20px 0;
+	font-size: 1.7em;
+  }
+  #modal-block li > a{
+	width: 50%;
+	text-align:justify;
+	color: #fff;
+  }
+  
+  /* Кнопка закрыть */
+  .close-block{
+	display: flex;
+	margin-top: 100px;
+	top: 25%;
+	right: 25%;
+	padding: .5em;
+	background-color: #e82d2d;
+	color: #000000;
+	text-align: right;
+	text-decoration: none;
+	font-size: 2em;
+	box-sizing: border-box;
+  }
