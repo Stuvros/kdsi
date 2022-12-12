@@ -154,7 +154,7 @@ li{
 	transition: all .5s;
 	font-family: 'GothamPro', sans-serif;
 	z-index: 9;
-	overflow: auto;
+	overflow-y: auto;
   }
   #modal-block:target{
 	display:flex;
