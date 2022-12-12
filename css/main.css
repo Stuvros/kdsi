@@ -157,7 +157,7 @@ li{
 	overflow-y: initial
   }
   #modal-block:target{
-	display:flex;
+	display:block;
 	align-items:center;
 	justify-content:center;
 	flex-direction: column;
@@ -171,22 +171,16 @@ li{
 	font-size: 1.7em;
   }
   #modal-block li > a{
-	width: 50%;
-	text-align:justify;
 	color: #fff;
   }
   
   /* Кнопка закрыть */
   .close-block{
-	display: flex;
-	margin-top: 1em;
-	top: 25%;
-	right: 25%;
 	padding: .5em;
 	background-color: #e82d2d;
-	color: #000000;
-	text-align: right;
 	text-decoration: none;
 	font-size: 2em;
 	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
   }
