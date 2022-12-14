@@ -60,6 +60,9 @@ body {
 	font-family: sans-serif;
 	font-size: 16px;
 	min-width: 320px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
 	line-height: 1.6;
 	font-family: "GothamPro-Medium", sans-serif;
@@ -182,4 +185,54 @@ li{
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
+  }
+
+  /* основной контент */
+  .content{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+  }
+
+  .otdel{
+	width: 65%;
+	height: 414px;
+	background-image: url(../img/vient.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding-top: 12%;
+  }
+
+  .otdel > a{
+	display: inline-block;
+	width: 30%;
+	height: 30%;
+	color: black;
+	margin: 2vh 2vw;
+  }
+
+  .otdel > a:before {
+    display: inline-block;
+    height: 30%;
+    vertical-align: middle;
+    content: " ";
+  }
+
+  .music{
+	background-color: rgb(59, 41, 166, 0.6);
+  }
+  .dance{
+	background-color: rgba(255, 188, 59, 0.6);
+  }
+  .paint{
+	background-color: rgba(49, 195, 199, 0.6);
+  }
+  .estet{
+	background-color: rgba(32, 186, 84, 0.6);
+  }
+
+  .afisha{
+	width: 428px;
+	height: 504px;
   }
