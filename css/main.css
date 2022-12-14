@@ -195,9 +195,9 @@ li{
   }
 
   .otdel{
-	width: 65%;
+	width: 949.2px;
 	height: 414px;
-	background-image: url(../img/vient.jpg);
+	background-image: url(../img/vient.png);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -220,7 +220,7 @@ li{
   }
 
   .music{
-	background-color: rgb(59, 41, 166, 0.6);
+	background-color: rgba(59, 41, 166, 0.6);
   }
   .dance{
 	background-color: rgba(255, 188, 59, 0.6);
