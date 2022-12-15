@@ -72,6 +72,9 @@ body {
 a{
 	color: #3B29A6;
 }
+a:hover{
+	color: #e82d2d;
+}
 
 .hidden {
 	display: none;
@@ -222,15 +225,32 @@ li{
 
   .music{
 	background-color: rgba(59, 41, 166, 0.6);
+	transition: 2s;
+  }
+  .music:hover{
+	background-color: rgba(59, 41, 166, 1);
+
   }
   .dance{
 	background-color: rgba(255, 188, 59, 0.6);
+	transition: 2s;
+  }
+  .dance:hover{
+	background-color: rgba(255, 188, 59, 1);
   }
   .paint{
 	background-color: rgba(49, 195, 199, 0.6);
+	transition: 2s;
+  }
+  .paint:hover{
+	background-color: rgba(49, 195, 199, 1);
   }
   .estet{
 	background-color: rgba(32, 186, 84, 0.6);
+	transition: 2s;
+  }
+  .estet:hover{
+	background-color: rgba(32, 186, 84, 1);
   }
 
   /* Афиша */
@@ -244,7 +264,7 @@ li{
 	height: 50%;
 	width: 50%;
 	object-fit: cover;
-	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);  /* ромб clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); круг circle(80px at 50% 50%); овал ellipse(100px 80px at center);*/  
+	clip-path: path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');  /* ромб clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); круг circle(40%); овал ellipse(100px 80px at center); сердечко path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');*/  
   }
 
   /* Новости */
