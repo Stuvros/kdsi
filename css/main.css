@@ -264,7 +264,16 @@ li{
 	height: 50%;
 	width: 50%;
 	object-fit: cover;
-	clip-path: path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');  /* ромб clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); круг circle(40%); овал ellipse(100px 80px at center); сердечко path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');*/  
+	clip-path: path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');  
+	/* ромб clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); 
+	круг circle(40%); овал ellipse(100px 80px at center); 
+	сердечко path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');*/
+  }
+
+  .gelereya-kartinok > img:hover {
+	/* анимация биения */
+	transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
   }
 
   /* Новости */
