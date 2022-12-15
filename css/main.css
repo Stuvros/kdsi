@@ -71,6 +71,7 @@ body {
 
 a{
 	color: #3B29A6;
+	transition: 1s;
 }
 a:hover{
 	color: #e82d2d;
