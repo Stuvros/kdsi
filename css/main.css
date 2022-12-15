@@ -192,10 +192,11 @@ li{
 	margin-top: 50px;
 	display: flex;
 	justify-content: center;
+    flex-wrap: wrap;
   }
 
   .otdel{
-	width: 949.2px;
+	width: 70%;
 	height: 414px;
 	background-image: url(../img/vient.webp);
 	background-position: center;
@@ -232,7 +233,23 @@ li{
 	background-color: rgba(32, 186, 84, 0.6);
   }
 
+  /* Афиша */
   .afisha{
-	width: 428px;
+	margin: auto;
+	width: 30%;
 	height: 504px;
+  }
+
+  .gelereya-kartinok > img {
+	height: 50%;
+	width: 50%;
+	object-fit: cover;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);  /* ромб clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); круг circle(80px at 50% 50%); овал ellipse(100px 80px at center);*/  
+  }
+
+  /* Новости */
+
+  .news {
+	width: 100%;
+	background-color: #666;
   }

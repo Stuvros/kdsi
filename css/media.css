@@ -65,10 +65,21 @@
 		}
 
 		.content{
-			display: block;
+			/* display: block; */
+			justify-content: left;
 		}
+
 		.otdel{
 			width: 100%;
+		}
+
+		.afisha {	
+			margin: auto;
+			width: 45%;
+		}
+
+		.news {
+			width: 50%;
 		}
   	}
 
@@ -91,6 +102,12 @@
 			line-height: 7px;
 			line-height: 100%;
 		  }
+		  .afisha {	
+			width: 95%;
+		  }
+		  .news {
+			width: 95%;
+		}
 
 	}
 
