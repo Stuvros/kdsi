@@ -23,7 +23,16 @@
 		line-height: 100%;
 		max-width: 312px;
 	}
-
+	.block_old2{
+		display: none;
+	  }
+	  .last_new{
+		width: 50%;
+	  }
+	  .block_old1{
+		display: flex;
+		flex-direction: column;
+	  }
 }
 
 /* Small Devices, Tablets */
@@ -81,6 +90,12 @@
 		.news {
 			width: 50%;
 		}
+		.block_old1{
+			display: none;
+		}
+		.last_new{
+			width: 100%;
+		  }
   	}
 
 	@media only screen and (max-width : 360px) {

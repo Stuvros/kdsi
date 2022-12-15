@@ -188,8 +188,8 @@ li{
   }
 
   /* основной контент */
-  .content{
-	margin-top: 50px;
+.content{
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
     flex-wrap: wrap;
@@ -250,6 +250,19 @@ li{
   /* Новости */
 
   .news {
+	height: 558px;
 	width: 100%;
 	background-color: #666;
+	display: flex;
+  }
+
+  .last_new{
+	width: 30%;
+	background-color: #3B29A6;
+  }
+
+  .old_news{
+	width: 100%;
+	height: 50%;
+	background-color: #e82d2d;
   }
