@@ -101,6 +101,7 @@ a:hover{
 	max-width: 507px;
 	max-height: 143px;
 }
+
 .adr{
 	font-family: "GothamPro";
 	font-size: 24px;
@@ -267,8 +268,13 @@ li{
 	object-fit: cover;
 	clip-path: path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');  
 	/* ромб clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); 
-	круг circle(40%); овал ellipse(100px 80px at center); 
-	сердечко path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');*/
+	круг circle(40%); 
+	овал ellipse(100px 80px at center); 
+	сердечко path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');
+	треугольник clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	треугольник вверх основанием polygon(50% 100%, 0 0, 100% 0);
+	звезда clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	квадрат polygon(7% 7%, 92% 7%, 92% 94%, 7% 94%);*/
   }
 
   .gelereya-kartinok > img:hover {
@@ -282,25 +288,142 @@ li{
   .news {
 	height: 558px;
 	width: 100%;
-	background-color: #666;
 	display: flex;
+	Font-size: 14px;
+	justify-content: center;
+	margin-bottom: 10px;
+	font-family: 'GothamPro', sans-serif;
   }
 
   .last_new{
-	width: 50%;
-	background-color: #3B29A6;
+	width: 30%;
+	background-image: url(../img/muz_large_сp.PNG);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+	text-align: left;
+  }
+  .img_last_new{
+	clip-path: circle(40%);
   }
 
-  .old_news{
+  .block_old1{
+	display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+	margin-left: 20px;
+	margin-right: 20px;
+  }
+  .block_old2{
+	display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+  }
+
+
+  .old_news2{
 	width: 100%;
 	height: 50%;
-	background-color: #e82d2d;
+	margin-left: 10px;
+	background-image: url(../img/hudozh_large_сp.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+  }
+  .img_old_news2{
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+
+  .old_news3{
+	width: 100%;
+	height: 50%;
+	margin-left: 10px;
+	background-image: url(../img/logo_large_сp.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+  }
+  .img_old_news3{
+	clip-path: polygon(7% 7%, 92% 7%, 92% 94%, 7% 94%); 
+  }
+
+  .old_news4{
+	width: 100%;
+	height: 50%;
+	margin-left: 10px;
+	background-image: url(../img/estet_large_с.PNG);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+  }
+  .img_old_news4{
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+  }
+
+  .old_news5{
+	width: 100%;
+	height: 50%;
+	margin-left: 10px;
+	background-image: url(../img/dance_large_сp.PNG);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+  }
+  .img_old_news5{
+	clip-path: path('M15,45 A30,30,0,0,1,75,45 A30,30,0,0,1,135,45 Q135,90,75,130 Q15,90,15,45 Z');
   }
 
 
 /* Подвал */
 .footer{
 	width: 100%;
-	height: 590px;
 	background-color: #31C3C7;
+	display: flex;
+	justify-content: left;
+}
+.text_footer{
+	margin: 20px;
+	font-size: 18px;
+	font-family: 'GothamPro', sans-serif;
+}
+
+.text_footer > b{
+	font-family: "GothamPro-Medium", sans-serif;
+}
+
+.text_footer > i{
+	font-size: 32px;
+}
+
+.url_footer{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	line-height: 28px;
+	Line-height: 170%;
+	margin: 20px;
+}
+.url_footer2{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	line-height: 28px;
+	Line-height: 170%;
+	margin: 20px;
+}
+.url_footer3{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	line-height: 28px;
+	Line-height: 170%;
+	margin: 20px;
+}
+.url_footer4{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	line-height: 28px;
+	Line-height: 170%;
+	margin: 20px;
 }

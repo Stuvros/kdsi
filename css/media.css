@@ -26,12 +26,16 @@
 	.block_old2{
 		display: none;
 	  }
-	  .last_new{
+	.last_new{
 		width: 50%;
 	  }
-	  .block_old1{
+	.block_old1{
 		display: flex;
 		flex-direction: column;
+		width: 50%;
+	  }
+	.url_footer4{
+		display: none;
 	  }
 }
 
@@ -50,6 +54,9 @@
 	}
 	.habmurger{
 		font-size: 32px;
+	}
+	.url_footer3{
+		display: none;
 	}
 
 /* @media only screen and (max-width : 480px) { */
@@ -85,6 +92,7 @@
 		.afisha {	
 			margin: auto;
 			width: 45%;
+			font-size: 12px;
 		}
 
 		.news {
@@ -95,7 +103,11 @@
 		}
 		.last_new{
 			width: 100%;
-		  }
+			font-size: 12px;
+		}
+		  .url_footer2{
+			display: none;
+		}
   	}
 
 	@media only screen and (max-width : 360px) {
@@ -119,10 +131,14 @@
 		  }
 		  .afisha {	
 			width: 95%;
+			height: auto;
 		  }
 		  .news {
 			width: 95%;
-		}
+		  }
+		  .url_footer{
+			display: none;
+		  }
 
 	}
 
