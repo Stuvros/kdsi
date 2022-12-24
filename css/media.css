@@ -110,6 +110,14 @@
 		}
   	}
 
+	@media only screen and (max-width : 480px) {
+		
+		.img_last_new {
+			max-width: 100px;
+		}
+
+	}
+
 	@media only screen and (max-width : 360px) {
 
 		.logo {
@@ -138,6 +146,9 @@
 		  }
 		  .url_footer{
 			display: none;
+		  }
+		  .img_last_new {
+			max-width: 150px;
 		  }
 
 	}
